@@ -36,10 +36,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/44a2b9718117b7c35646ed67d6493db2c1a38019/chunk-001.nq.gz",
       "repolex:graphFileSize": 729969
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz",
+      "repolex:graphFileSize": 63581
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-04T14:40:00.675219+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap",
+      "git:hexsha": "08f8d6ca30a2b9f73ec981e55560585dea0f6709",
+      "git:tagName": "v3.2.23"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-rocksdb/rust-rocksdb",
+      "repolex:packageName": "rocksdb",
+      "git:hexsha": "9118a60fe265f4c425a162a3958a96e008be646f",
+      "git:tagName": "v0.19.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/rust-lang/flate2-rs",
+      "repolex:packageName": "flate2",
+      "git:hexsha": "8431d9e0c0fdaea16c4643c723631223802b2c86",
+      "git:tagName": "1.0.25"
+    }
+  ]
 }

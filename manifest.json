@@ -63,6 +63,45 @@
       ],
       "ast": [
         "aggregate/ast/44a2b9718117b7c35646ed67d6493db2c1a38019/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "3.2.23",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "08f8d6ca30a2b9f73ec981e55560585dea0f6709",
+          "githubTag": "v3.2.23",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-3.2.23/src/builder/command.rs"
+        },
+        {
+          "packageName": "rocksdb",
+          "ecosystem": "CARGO",
+          "version": "0.19.0",
+          "githubOrg": "rust-rocksdb",
+          "githubRepo": "rust-rocksdb",
+          "githubCommit": "9118a60fe265f4c425a162a3958a96e008be646f",
+          "githubTag": "v0.19.0",
+          "githubUrl": "https://github.com/rust-rocksdb/rust-rocksdb",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rocksdb-0.19.0/src/db_options.rs"
+        },
+        {
+          "packageName": "flate2",
+          "ecosystem": "CARGO",
+          "version": "1.0.25",
+          "githubOrg": "rust-lang",
+          "githubRepo": "flate2-rs",
+          "githubCommit": "8431d9e0c0fdaea16c4643c723631223802b2c86",
+          "githubTag": "1.0.25",
+          "githubUrl": "https://github.com/rust-lang/flate2-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/flate2-1.0.25/src/gz/read.rs"
+        }
       ]
     }
   ],
