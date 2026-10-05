@@ -102,7 +102,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/flate2-1.0.25/src/gz/read.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/44a2b9718117b7c35646ed67d6493db2c1a38019/chunk-001.nq.gz",
+      "dep": "dep/44a2b9718117b7c35646ed67d6493db2c1a38019.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

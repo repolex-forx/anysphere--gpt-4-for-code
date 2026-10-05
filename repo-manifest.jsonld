@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/anysphere/gpt-4-for-code/commit/44a2b9718117b7c35646ed67d6493db2c1a38019",
       "git:hexsha": "44a2b9718117b7c35646ed67d6493db2c1a38019",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-05T09:48:22.122046+00:00"
     }
   ]
 }
